@@ -22,8 +22,8 @@ import com.example.springbootrestProgram.entity.Books;
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @AutoConfigureMockMvc
-@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-//@ContextConfiguration(classes = AppConfig.class, loader = AnnotationConfigContextLoader.class)
+//@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
+@ContextConfiguration(classes = AppConfig.class, loader = AnnotationConfigContextLoader.class)
 public class BookDaoTest {
 	
 	@Autowired

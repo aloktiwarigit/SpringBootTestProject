@@ -11,9 +11,9 @@ import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
+//@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @AutoConfigureMockMvc
-//@ContextConfiguration(classes = AppConfig.class, loader = AnnotationConfigContextLoader.class)
+@ContextConfiguration(classes = AppConfig.class, loader = AnnotationConfigContextLoader.class)
 public class SpringbootrestProgramApplicationTests {
 
 	@Test
