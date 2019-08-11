@@ -20,7 +20,7 @@ import com.example.springbootrestProgram.entity.Books;
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 public class BookDaoTest {
-	
+	//Dao Test
 	@Autowired
 	private TestEntityManager entityManager;
 	
